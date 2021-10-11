@@ -1,8 +1,9 @@
 //
 //  User.swift
-//  introduction_to_ios_design_pattern-sample
+//  GitHub
 //
-//  Created by kazunori.aoki on 2021/10/08.
+//  Created by 鈴木大貴 on 2018/08/02.
+//  Copyright © 2018年 marty-suzuki. All rights reserved.
 //
 
 import Foundation

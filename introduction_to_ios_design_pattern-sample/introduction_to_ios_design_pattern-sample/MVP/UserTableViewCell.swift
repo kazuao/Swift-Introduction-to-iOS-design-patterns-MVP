@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GitHub
 
 class UserTableViewCell: UITableViewCell {
 

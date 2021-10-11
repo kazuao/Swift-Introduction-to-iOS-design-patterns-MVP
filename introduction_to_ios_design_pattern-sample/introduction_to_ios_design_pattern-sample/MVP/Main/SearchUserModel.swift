@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import GitHub
 
 protocol SearchUserModelInput {
     func fetchUser(query: String, completion: @escaping (Result<[User], Error>) -> ())

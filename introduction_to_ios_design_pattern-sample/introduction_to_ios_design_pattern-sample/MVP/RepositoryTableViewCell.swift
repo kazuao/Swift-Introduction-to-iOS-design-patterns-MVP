@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GitHub
 
 class RepositoryTableViewCell: UITableViewCell {
 

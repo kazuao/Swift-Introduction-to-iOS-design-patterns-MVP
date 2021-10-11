@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GitHub
 
 class SearchUserViewController: UIViewController {
 
@@ -37,7 +38,7 @@ class SearchUserViewController: UIViewController {
 private extension SearchUserViewController {
     
     func setup() {
-        tableview.dataSource = self
+        tableView.dataSource = self
         tableView.delegate = self
         
         tableView.estimatedRowHeight = 64

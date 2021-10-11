@@ -6,7 +6,7 @@
 //
 
 import Foundation
-
+import GitHub
 
 protocol SearchUserPresenterInput {
     var numberOfUsers: Int { get }
