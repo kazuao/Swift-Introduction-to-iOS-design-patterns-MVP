@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-public protocol LoginViewControllerDelegate: class {
+public protocol LoginViewControllerDelegate: AnyObject {
     func loginViewController(_ viewController: LoginViewController, didReceive accessToken: AccessToken)
     func loginViewController(_ viewController: LoginViewController, didReceive error: Error)
 }

@@ -48,10 +48,10 @@ private extension SearchUserViewController {
 }
 
 
-extension UISearchContainerViewController: UISearchBarDelegate {
+extension SearchUserViewController: UISearchBarDelegate {
     
     public func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
-        presenter.didTapSerchButton(text: searchBar.text)
+        presenter.didTapSearchButton(text: searchBar.text)
     }
 }
 

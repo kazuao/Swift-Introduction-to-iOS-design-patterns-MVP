@@ -26,7 +26,7 @@ class UserTableViewCell: UITableViewCell {
     func configure(user: User) {
         task = {
             let url = user.avatarURL
-            let task = URLSessionTask.shared.dataTask(with: url) { data, response, error in
+            let task = URLSession.shared.dataTask(with: url) { data, response, error in
                 guard let imageData = data else { return }
                 
                 DispatchQueue.global().async { [weak self] in

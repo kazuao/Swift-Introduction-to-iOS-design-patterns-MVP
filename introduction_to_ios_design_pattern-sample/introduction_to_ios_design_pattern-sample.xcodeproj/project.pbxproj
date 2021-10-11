@@ -95,14 +95,6 @@
 		0EEF13832713F3CC00EADE31 /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; };
 		0EEF138B2713F46100EADE31 /* User+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Extension.swift"; sourceTree = "<group>"; };
 		0EEF138C2713F46100EADE31 /* Repository+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Repository+Extension.swift"; sourceTree = "<group>"; };
-		0EEF138F2713F46700EADE31 /* RepositoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryCell.swift; sourceTree = "<group>"; };
-		0EEF13902713F46700EADE31 /* UserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCell.xib; sourceTree = "<group>"; };
-		0EEF13912713F46700EADE31 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
-		0EEF13922713F46700EADE31 /* RepositoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepositoryCell.xib; sourceTree = "<group>"; };
-		0EEF13942713F46700EADE31 /* SearchUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchUser.storyboard; sourceTree = "<group>"; };
-		0EEF13952713F46700EADE31 /* SearchUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserViewController.swift; sourceTree = "<group>"; };
-		0EEF13962713F46700EADE31 /* SearchUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserModel.swift; sourceTree = "<group>"; };
-		0EEF13972713F46700EADE31 /* SearchUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,8 +153,7 @@
 		0EC4EA46271015E5002D05B1 /* introduction_to_ios_design_pattern-sample */ = {
 			isa = PBXGroup;
 			children = (
-				0EEF138D2713F46700EADE31 /* MVVM */,
-				0EC4EA5C27101614002D05B1 /* MVP */,
+				0EC4EA5C27101614002D05B1 /* View */,
 				0EC4EA5B271015EF002D05B1 /* Application */,
 				0EEF138A2713F46100EADE31 /* Extensions */,
 				0EC4EA50271015E8002D05B1 /* Assets.xcassets */,
@@ -181,7 +172,7 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
-		0EC4EA5C27101614002D05B1 /* MVP */ = {
+		0EC4EA5C27101614002D05B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				0EA331112710171B002608EE /* Main */,
@@ -191,7 +182,7 @@
 				0EA331282710222B002608EE /* UserTableViewCell.swift */,
 				0EA3312227102194002608EE /* UserTableViewCell.xib */,
 			);
-			path = MVP;
+			path = View;
 			sourceTree = "<group>";
 		};
 		0EEF13632713F3CC00EADE31 /* Frameworks */ = {
@@ -296,37 +287,6 @@
 				0EEF138C2713F46100EADE31 /* Repository+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		0EEF138D2713F46700EADE31 /* MVVM */ = {
-			isa = PBXGroup;
-			children = (
-				0EEF138E2713F46700EADE31 /* UITableViewCells */,
-				0EEF13932713F46700EADE31 /* SearchUser */,
-			);
-			path = MVVM;
-			sourceTree = "<group>";
-		};
-		0EEF138E2713F46700EADE31 /* UITableViewCells */ = {
-			isa = PBXGroup;
-			children = (
-				0EEF138F2713F46700EADE31 /* RepositoryCell.swift */,
-				0EEF13902713F46700EADE31 /* UserCell.xib */,
-				0EEF13912713F46700EADE31 /* UserCell.swift */,
-				0EEF13922713F46700EADE31 /* RepositoryCell.xib */,
-			);
-			path = UITableViewCells;
-			sourceTree = "<group>";
-		};
-		0EEF13932713F46700EADE31 /* SearchUser */ = {
-			isa = PBXGroup;
-			children = (
-				0EEF13942713F46700EADE31 /* SearchUser.storyboard */,
-				0EEF13952713F46700EADE31 /* SearchUserViewController.swift */,
-				0EEF13962713F46700EADE31 /* SearchUserModel.swift */,
-				0EEF13972713F46700EADE31 /* SearchUserViewModel.swift */,
-			);
-			path = SearchUser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
